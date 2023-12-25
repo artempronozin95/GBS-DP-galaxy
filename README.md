@@ -1,4 +1,4 @@
-# GBS-DP-bioinformatics-pipeline-for-genotyping-by-sequencing-data-processing
+# GBS-DP-galaxy
 
 ## Table of contents
 * [Introduction](#introduction)
