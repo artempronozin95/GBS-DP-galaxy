@@ -131,4 +131,4 @@ rule phyml:
     output:
          "results/plotdendogram.png"
     run:
-         shell("Rscript путь к скрипту/cluster_new.R {params.fold1} results/cluster.gds {input.mod} {params.vcf}") # нужно прописать путь к скрипту (в окружение на которое galaxy ссылается), по другому у меня почему-то не работает.
+         shell("Rscript cluster_new.R {params.fold1} results/cluster.gds {input.mod} {params.vcf}")
